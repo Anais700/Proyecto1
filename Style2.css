@@ -1,0 +1,674 @@
+/* DISEÑO HOME */
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-image: url(./Images/fondo-celeste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boton a{
+    text-decoration: none;
+    font-size: large;
+    color: brown;
+    padding: 10px;
+}
+.boton{
+    background-color: burlywood;
+    margin: 12px;
+    border-color: rgb(219, 174, 115);
+    border-radius: 25%;
+}
+.Nav{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25%;
+    width: 100%;
+    position: fixed;
+    margin-top: -65px;
+    background-color: rgba(173, 154, 141, 0.712);
+
+}
+.logoCampsite{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.logoCampsite img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -20px;
+}
+.fondo{
+    width: 95%;
+    height: 190px;
+    margin: auto;
+    background-image: url(./Images/Desarrollo.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    box-shadow: 10px 10px 10px rgb(155, 66, 3);
+}
+.fondo h1{
+    text-align: right;
+    padding-top: 77px;
+    padding-right: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: chocolate;
+    font-size: 55px;
+}
+.Contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 500px;
+    margin: auto;
+}
+.Contenedor .numero{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin: auto;
+    background-color: chocolate;
+    background-size: cover;
+    background-position: 5px;
+    width: 20%;
+    border-radius: 40%;
+}
+.Contenedor .numero{
+    margin-top: 55px;
+    box-shadow: 5px 5px 5px 5px rgb(155, 66, 3);
+    padding: 5px;
+}
+.fullStack{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.fullStack .imageFS img{
+    width: 270px;
+    height: 200px;
+    margin: auto;
+    padding-top: 30%;
+    padding-right: 20px;
+    border-top-left-radius: 60%;
+    border-bottom-right-radius: 50%;
+}
+.fullStack .fecha{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    background-color: cadetblue;
+    width: 60%;
+    border-radius: 20%;
+    margin-right: 30px;
+    box-shadow: 10px 10px rgb(29, 165, 255);
+}
+.fullStack .fecha1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    background-color: #bbc7ff;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 30%;
+    border-radius: 30%;
+    box-shadow: 10px 10px #0734ff;
+}
+.fullStack .imageDS img{
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    padding-top: 30%;
+    padding-right: 20px;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 50%;
+}
+.date1{
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.dia{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 8px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.mes{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: auto;
+
+}
+.curso{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: -8px;
+}
+.button{
+    margin: auto;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+.button a{
+    text-decoration: none;
+}
+.dia1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    /* margin-bottom: -20px;
+    margin-top: -20px; */
+}
+.mes1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    /* margin-top: -20px; */
+}
+.curso1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin: auto;
+}
+.button1{
+    margin: auto;
+}
+.button1 a{
+    text-decoration: none;
+}
+
+/* DISEÑO CONÓCENOS */
+.body{
+    background-image: url(./Images/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 95%;
+    padding-bottom: 10%;
+}
+.intro .meet{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin: auto;
+    background-color: chocolate;
+    background-size: contain;
+    background-position: 5px;
+    width: 20%;
+    border-radius: 30%;
+    height: 35px;
+}
+.intro .meet{
+    margin-top: 35px;
+    box-shadow: 5px 5px 5px 5px rgb(155, 66, 3);
+    padding: 5px;
+    padding-top: 10px;
+}
+.intro .pres{
+    background-image: url(./Images/Backgroundblue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px;
+    width: 50%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 35%;
+}
+.infoAle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+.imageAle img{
+    width: 300px;
+    height: 380px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 10px 10px cadetblue;
+}
+.imageAle{
+    margin: auto;
+    margin-right: 15px;
+}
+.Ale{
+    background-color: cadetblue;
+    margin-left: 15px;
+    border-radius: 40%;
+    margin-top: 10px;
+}
+.infoAle .Ale .p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:  19px;
+    font-weight: 600;
+    padding-top: 35px;
+}
+.infoAle .Ale .paragrAle{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 85%;
+    margin: auto;
+    padding-top: 5px;
+}
+.infoEma{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.imageEma img{
+    width: 300px;
+    height: 300px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    box-shadow: 10px 10px #bbc7ff;
+    margin-left: 10px;
+}
+.imageEma{
+    margin: auto;
+    margin-right: 15px;
+    margin-top: 4%;
+}
+.Ema{
+    background-color: #bbc7ff;
+    margin-left: 15px;
+    border-radius: 40%;
+    margin-top: 5%;
+    padding: 10px;
+}
+.infoEma .Ema .titleEma{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:  19px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.infoEma .Ema .paragrEma{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 85%;
+    margin: auto;
+}
+
+/* DISEÑO CONTACTO */
+.body1{
+    background-image: url(./Images/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 95%;
+    padding-bottom: 10%;
+}
+.subtitulo p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin: auto;
+    background-color: chocolate;
+    background-size: contain;
+    background-position: 5px;
+    width: 20%;
+    border-radius: 30%;
+    height: 35px;
+    box-shadow: 5px 5px 5px 5px rgb(155, 66, 3);
+    padding: 5px;
+    padding-top: 10px;
+}
+.subtitulo{
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    background-color: rgb(91, 187, 190);
+    border-radius: 30%;
+    padding: 5%;
+    box-shadow: 10px 10px #0734ff;
+}
+.informacion p{
+    padding-bottom: 4%;
+    margin-top: -4px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.tel{
+    margin-bottom: 10px;
+}
+.tel img{
+    width: 30px;
+    height: 25px;
+    margin-right: 4px;
+    border-radius: 50%;
+}
+.tel a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+
+}
+.mail{
+    margin: auto;
+    margin-top: 10px;
+}
+.mail img{
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+    border-radius: 50%;
+    padding-top: 3px;
+    margin-top: 2px;
+}
+.mail a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+/* DISEÑO INFO */
+.body2{
+    background-image: url(./Images/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Information p{
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 25px;
+font-weight: 500;
+margin: auto;
+background-color: chocolate;
+background-size: contain;
+width: 40%;
+border-radius: 25%;
+height: 25px;
+}
+.Information p{
+margin-top: 35px;
+margin-bottom: 30px;
+box-shadow: 5px 5px 5px 5px rgb(155, 66, 3);
+padding: 20px;
+padding-top: 10px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-style: oblique;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+table {
+    margin-left: 25px;
+    border: 2px solid black;
+    background-color: rgb(111, 198, 201);
+    box-shadow: 5px 5px rgb(13, 159, 161);
+    border-collapse: collapse;
+}
+table thead tr th{
+    border: 2px solid #0734ff;
+    border-collapse: collapse;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table tbody tr td{
+    border: 1px solid #0734ff;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+tr:hover{
+    background-color: #bbfdff;
+    scale: 1.05;
+}
+table tfoot tr td{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    padding-right: 10px;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique;
+    padding-top: 30px;
+}
+.lista{
+    display: flex;
+    margin: auto;
+    background-color: #bbc7ff;
+    box-shadow: 10px 10px blue;
+    width: 45%;
+    justify-content: space-around;
+    border-radius: 40%;
+}
+.lista li{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ol p{
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lista ol ul{
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.pCSS ol{
+    padding-top: 50px;
+
+}
+.program{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+    width: 90%;
+}
+.program h4{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.program dl{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    border-radius: 20%;
+    box-shadow: 10px 10px rgb(15, 186, 243);
+    width: 50%;
+    padding: 60px;
+    margin-left: 40%;
+
+}
+.program dl dt{
+    text-align: left;
+    font-weight: 700;
+    color: darkblue;
+    margin-top: 12px;
+    justify-content: space-around;
+
+}
+.program dl dd{
+    text-align: justify;
+    justify-content: space-around;
+}
+
+/* DISEÑO FORMULARIO */
+.body3{
+    background-image: url(./Images/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form .formu {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+    background-image: url(./Images/programador.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 15%;
+    box-shadow: 15px 15px rgb(115, 116, 131);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+legend{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+form .formu .formuhijo{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    background-color: #758df8e1;
+    box-shadow: 7px 10px 30px rgba(2, 65, 236, 0.74);
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 1.5%;
+}
+form .formu .formuhijo .datosP{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form .formu .formuhijo .dirección{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+}
+.divi, .divi1{
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;  
+}
+.divi, .divi1, div{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.div1, .div2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    text-align: right;
+}
+.div1 div{
+    padding-left: 57px;
+    margin-top: -4px;
+}
+
+.div2 div{
+    padding-left: 7px;
+    margin-top: -4px;
+}
+form .formu .formuhijo label, input, select, textarea{
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+.datosP .i{
+    width: 100%;
+    margin: auto;
+}
+.datosP .i .in{
+    background-color: azure;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.datosP .i .check{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 7px;
+    padding: 5px;
+}
+.datosP .i .check p{
+    margin-right: 7px;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+.sub input{
+    margin-right: 8px;
+    background-color: rgb(223, 172, 105);
+    border-color: chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 10%;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(0, 17, 255);
+    box-shadow: 7px 13px 37px #001da0;
+    border-radius: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 700;
+    padding: 50px;
+    margin-top: -70px;
+
+}
