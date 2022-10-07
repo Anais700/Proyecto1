@@ -260,14 +260,14 @@ body{
     background-color: cadetblue;
     margin-left: 15px;
     border-radius: 40%;
-    margin-top: 10px;
+    margin-top: 7px;
 }
 .infoAle .Ale .p{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:  19px;
     font-weight: 600;
-    padding-top: 35px;
+    padding-top: 50px;
 }
 .infoAle .Ale .paragrAle{
     text-align: center;
@@ -275,7 +275,7 @@ body{
     font-size: 18px;
     width: 85%;
     margin: auto;
-    padding-top: 5px;
+    padding-top: 35px;
 }
 .infoEma{
     display: flex;
@@ -307,7 +307,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:  19px;
     font-weight: 600;
-    padding-top: 5px;
+    padding-top: 35px;
 }
 .infoEma .Ema .paragrEma{
     text-align: center;
@@ -315,6 +315,7 @@ body{
     font-size: 18px;
     width: 85%;
     margin: auto;
+    padding-top: 30px;
 }
 
 /* DISEÑO CONTACTO */
